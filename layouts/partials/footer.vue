@@ -22,13 +22,15 @@ export default {
     background: #000;
     padding: 20px;
     color: #fff;
-    position: fixed;
+    position: static;
     left: 0;
     bottom: 0;
     width: 100%;
+    top: 1rem;
+
     }
     .down{
-       margin-top: 20px;
+       margin-top: 10rem;
        margin-bottom: 0rem;
     }
 </style>

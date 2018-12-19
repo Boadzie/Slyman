@@ -37,8 +37,38 @@
       </div>
     </div>
     <br><br>
-    <hr>
-   
+    <hr class="lin">
+   <div class="container mb-5">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3 class="headings">Achievements</h3>
+          <hr class="lin">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        </div>
+        <div class="col-sm-4">
+          <h3 class="headings">Commitees</h3>
+            <hr class="lin">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        </div>
+        <div class="col-sm-4">
+          <h3 class="headings">News</h3>
+            <hr class="lin">        
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <h1 class="headings text-center">Get in Touch</h1>
+      <hr class="line">
+      <div class="row">
+        <div class="col-12">
+
+        </div>
+      </div>
+    </div>
   </div>
 
 </template>
@@ -277,6 +307,17 @@ body {
 @include carousel(5);
 
 // flex goes here
+.line{
+  border: solid 2px #677;
+  width: 50%;
+  margin-left: 250px;
+
+  
+}
+.lin{
+  border: solid 2px #677;
+  
+}
 
 </style>
 
