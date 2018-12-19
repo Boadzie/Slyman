@@ -38,16 +38,7 @@
     </div>
     <br><br>
     <hr>
-    <div class="parent">
-      <div class="child">
-        <h2>Awesome Achievements</h2>
-        <hr>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, voluptatibus!</p>
-        <button class="btn">Learn More</button>
-      </div>
-      <div class="child">2</div>
-      <div class="child">3</div>
-    </div>
+   
   </div>
 
 </template>
@@ -286,41 +277,6 @@ body {
 @include carousel(5);
 
 // flex goes here
-.parent{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: nowrap;
-  height: 100%;
-}
-.child {
-  width: 100%;
-  height: 200px;
-  background:whitesmoke;
-  margin: 20px;
-
-}
-
-.child h2{
-   padding: 20px;
-   text-align: center;
-}
-.child p{
-  padding: 20px;
-  text-align: center;
-}
-
- .btn{
-    color: #0099CC; 
-    background: transparent;
-    border: 2px solid #0099CC; 
-    border-radius: 6px; 
-    padding:10px;
-    display: inline-block;
-    text-align: center
-    
- }
 
 </style>
 

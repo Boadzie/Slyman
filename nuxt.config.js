@@ -43,6 +43,16 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
+    'bootstrap-vue/nuxt',
+    ['nuxt-fontawesome', {
+      component: 'fa',
+      imports: [
+        {
+          set: '@fortawesome/free-solid-svg-icons',
+          icons: ['faDollarSign']
+        }
+      ]
+    }]
   ],
 
   /*
