@@ -8,11 +8,11 @@
           <input type="radio" id="carousel-4" name="carousel[]">
           <input type="radio" id="carousel-5" name="carousel[]">
           <ul class="carousel__items">
-              <li class="carousel__item"><img src="//lh5.googleusercontent.com/-cTEgPOnd3l8/U8-EmaZ4KNI/AAAAAAAABc8/6eacbALkQ6A/w1358-h905-no/carousel-1.JPG" alt=""></li>
-              <li class="carousel__item"><img src="//lh4.googleusercontent.com/-ntVHbbWX5eo/U8-EmV8P4cI/AAAAAAAABc4/ICYBGkcztTc/w1358-h905-no/carousel-2.jpg" alt=""></li>
-              <li class="carousel__item"><img src="//lh5.googleusercontent.com/-batEXUZE_e4/U8-EmLF9-hI/AAAAAAAABc0/J3tJVUa6Buk/w1358-h905-no/carousel-3.jpg" alt=""></li>
-              <li class="carousel__item"><img src="//lh5.googleusercontent.com/-gywqIeMvel0/U8-EolKdtkI/AAAAAAAABdM/G0-NHuvvJUU/w1358-h905-no/carousel-4.jpg" alt=""></li>
-              <li class="carousel__item"><img src="//lh5.googleusercontent.com/--2iANjL3ikc/U8-EoGJ18mI/AAAAAAAABdI/fBe-q3Gos6Y/w1358-h905-no/carousel-5.jpg" alt=""></li>
+              <li class="carousel__item"><img src="~/assets/img/beautify.jpg" alt=""></li>
+              <li class="carousel__item"><img src="~/assets/img/beataudio.jpg" alt=""></li>
+              <li class="carousel__item"><img src="~/assets/img/fish.jpg" alt=""></li>
+              <li class="carousel__item"><img src="~/assets/img/lamborghini.jpg" alt=""></li>
+              <li class="carousel__item"><img src="~/assets/img/rainbow.jpg" alt=""></li>
           </ul>
       <div class="carousel__prev">
           <label for="carousel-1"></label>
@@ -47,7 +47,7 @@
           <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
         </div>
         <div class="col-sm-4">
-          <h3 class="headings">Commitees</h3>
+          <h3 class="headings">Committees</h3>
             <hr class="lin">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
           <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
@@ -61,11 +61,20 @@
       </div>
     </div>
     <div class="container mt-5">
-      <h1 class="headings text-center">Get in Touch</h1>
+      <h1 class="headings text-center h1">Get in Touch</h1>
       <hr class="line">
       <div class="row">
-        <div class="col-12">
-
+        <div class="col-md-3">
+           <a href="#"><img class="img1" src="~/assets/img/facebook.svg" alt=""></a>
+        </div>
+        <div class="col-md-3">
+            <a href="#"><img  class="img1" src="~/assets/img/twitter.svg" alt=""></a>
+        </div>
+        <div class="col-md-3">
+          <a href="#"><img  class="img1" src="~/assets/img/instagram.svg" alt=""></a>
+        </div>
+        <div class="col-md-3">
+          <a href="#"><img  class="img1" src="~/assets/img/phone-call.svg" alt=""></a>
         </div>
       </div>
     </div>
@@ -75,12 +84,21 @@
 
 <script>
 
-export default {
-  
+  export default {
+    components: {
+     
+  }
 }
 </script>
 
 <style lang="scss" scoped>
+
+.img1{
+  width: 300px;
+  height: 60px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
 /**
  * Carousel.sass
  * @author: Dang Van Thanh

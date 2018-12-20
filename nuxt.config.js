@@ -15,10 +15,12 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel:'stylesheet', href:"https://fonts.googleapis.com/css?family=Titillium+Web"}
+      { rel:'stylesheet', href:"https://fonts.googleapis.com/css?family=Titillium+Web"},
       
-    ]
+    ],
+    
   },
+  
 
   /*
   ** Customize the progress-bar color
@@ -44,17 +46,15 @@ module.exports = {
   */
   modules: [
     'bootstrap-vue/nuxt',
-    ['nuxt-fontawesome', {
-      component: 'fa',
-      imports: [
-        {
-          set: '@fortawesome/free-solid-svg-icons',
-          icons: ['faDollarSign']
-        }
-      ]
-    }]
+    'nuxt-fontawesome',
   ],
 
+  
+  build: {
+    extend (config) {
+       /* Tweak build if needed  */
+    }
+  },
   /*
   ** Build configuration
   */

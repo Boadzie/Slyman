@@ -6,7 +6,7 @@ body{
     padding: 5em;
 }
 
-h1 {
+.h1 {
     font-size: 3em;
     text-transform: uppercase;
 }

@@ -1,5 +1,5 @@
 <template>
-    <h1>Committee Page</h1>
+    <h1>Committees Page</h1>
 </template>
 
 <script>
